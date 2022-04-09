@@ -9,7 +9,8 @@ router.get("/", (req, res) => {
 });
 
 router.get("/testSocket", (req, res) => {
-  res.send({ Response: "Hello World" }).status(200);
+  res.write('<h3>Hello</h3>').status(200);
+  res.end();
 });
 
 module.exports = router;
