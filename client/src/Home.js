@@ -15,6 +15,6 @@ export default function Home() {
       });
   }, []);
   return(
-      <div>Kết nối dữ liệu </div>
+      <div>Kết nối client thành công </div>
   )
 }
